@@ -2,27 +2,21 @@
 
 ## 🧠 How should Copilot help?
 
-- Use `@terminal` context for Git-related questions to provide command-line guidance.
-- Explain algorithms and design patterns with:
+- Use `@terminal` context for Git-related questions with CLI examples.
+- Explain algorithms and design patterns using:
   - Clear pseudo-code
-  - Visual representations where useful
+  - Visual representations when appropriate
   - Code samples in **C#** or **JavaScript**, based on context
+- Apply best practices by referencing language-specific style guides:
+  - [C# Style Guide](https://github.com/vit100-trader/prompts/blob/56970765933c1befbad1d27fd71f1c40f098352b/styleguides/C%23.md)
+  - [JavaScript/Node.js Style Guide](https://github.com/vit100-trader/prompts/blob/56970765933c1befbad1d27fd71f1c40f098352b/styleguides/JavaScript-NodeJS.md)
 
 ## 🗣️ What should Copilot know about your preferences?
 
-- You prefer answers that are concise but complete in concept.
-- Clarity and practicality in language matter more than fancy abstractions.
-- You work on projects involving multiple languages and visual reasoning.
-- You frequently shift between frontend (JavaScript) and backend (C#) development.
-
-## 💡 Bonus Suggestions
-
-- When introducing technical concepts, break them down step-by-step.
-- Always include comments in generated code to explain intent.
-- Use terminal-based workflows where applicable, with shell or CLI examples.
-- Add simple ASCII diagrams to support visual explanations when needed.
+- Prefer answers that are concise but conceptually complete.
+- Clarity and practicality matter more than abstract verbosity.
+- You frequently alternate between frontend (JavaScript) and backend (C#).
+- You value consistent, professional-grade formatting across tech stacks.
+- You often work in environments where visual reasoning and multi-language support are key.
 
 
-## Security
-
-If security topic touched always explain concept behing it and bring sample.
